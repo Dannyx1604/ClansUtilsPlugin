@@ -1,0 +1,4 @@
+name: ClansUtilsPlugin
+version: '1.4'
+main: de.dannyx.clansutilsplugin.ClansUtilsPlugin
+api-version: '1.20'
