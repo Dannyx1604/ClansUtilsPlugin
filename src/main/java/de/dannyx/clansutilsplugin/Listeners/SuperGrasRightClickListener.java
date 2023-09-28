@@ -25,7 +25,7 @@ public class SuperGrasRightClickListener implements Listener {
                 p.addPotionEffect(new PotionEffect(PotionEffectType.DOLPHINS_GRACE, 50, 10));
                 p.addPotionEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 300, 10));
                 p.playSound(p.getLocation(), Sound.BLOCK_LAVA_EXTINGUISH, 50, 1);
-                System.out.println("Applied effect to a player!");
+                System.out.println("Applied the effect to a player!");
                 p.getInventory().removeItem(item);
             }
         }
